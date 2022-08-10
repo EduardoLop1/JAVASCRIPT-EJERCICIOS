@@ -72,7 +72,7 @@ function MenuEjercicios(nro_ejercicio) {
             let notas=[];
             let n = parseFloat(prompt("Ingrese cantidad de alumnos: "));
             for(var i=0;i<n;i++){
-                notas[i]= parseInt(prompt("Ingrese edad : "));
+                notas[i]= parseInt(prompt(`Ingrese nota del alumno ${i+1}: `));
             }
             alert(ej13_calificaciones(notas));
             break;
