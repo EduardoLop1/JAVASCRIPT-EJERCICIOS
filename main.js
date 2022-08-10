@@ -26,25 +26,32 @@ function MenuEjercicios(nro_ejercicio) {
             let base = parseFloat(prompt("Ingrese Base: "));
             let altura = parseFloat(prompt("Ingrese altura: "));
             alert(ej3_calcularAreaRectangulo(base, altura));
+            break;
         case 4:
             let baset = parseFloat(prompt("Ingrese Base: "));
             let alturat = parseFloat(prompt("Ingrese altura: "));
             alert(ej4_calcularAreaTriangulo(baset, alturat));
+            break;
         case 5:
             let radio = parseFloat(prompt("Ingrese Radio del círculo: "));
             alert(ej5_calcularAreaCirculo(radio));
+            break;
         case 6:
             let sueldohora = parseFloat(prompt("Ingrese Suelto por hora: "));
             alert(ej6_calcularsalario(sueldohora));
+            break;
         case 7:
             let metros = parseFloat(prompt("Ingrese metros a convertir: "));
             alert(ej7_convertirpulgadas(metros));
+            break;
         case 8:
             let soles = parseFloat(prompt("Ingrese monto en soles: "));
             alert(ej8_cambiardolares(soles));
+            break;
         case 9:
             let anionacimiento=parseInt(prompt("CALCULO DE LA EDAD CON FECHA DE NACIMIENTO \r\nIngrese año de nacimiento"));
             alert(ej9_calcularedad(anionacimiento));
+            break;
         case 10:
             let nombre=[];
             let edad=[];
@@ -53,11 +60,14 @@ function MenuEjercicios(nro_ejercicio) {
                 edad[i]=parseInt(prompt("Ingrese edad"));
             }
             alert(ej10_personamenor(nombre,edad));
+            break;
         case 11:
             let anioingreso=parseInt(prompt("CALCULO DE BONO SEGUN ANTIGUEDAD \r\nIngrese año de ingreso"));
             alert(ej11_calcularbono(anioingreso));
+            break;
         case 12:
             alert(ej12_calcularsalario());
+            break;
         case 13:
             let notas=[];
             let n = parseFloat(prompt("Ingrese cantidad de alumnos: "));
@@ -65,6 +75,7 @@ function MenuEjercicios(nro_ejercicio) {
                 notas[i]= parseInt(prompt("Ingrese edad : "));
             }
             alert(ej13_calificaciones(notas));
+            break;
         case 14:
             let focos=[];
             let nf = parseFloat(prompt("Ingrese cantidad de focos: "));
@@ -72,9 +83,11 @@ function MenuEjercicios(nro_ejercicio) {
                 focos[i]=parseInt(prompt("Ingrese color de foco donde: \r\nVerde es 1\r\nBlanco es 2\r\nRojo es 3"));
             }
             alert(ej14_cantidadfocos(focos));
+            break;
         case 15:
             let edadd=parseInt(prompt("\r\nIngrese su edad: "));
             alert(ej15_votar(edadd));
+            break;
 
     
     }
